@@ -535,7 +535,7 @@ ko: &DEFAULT_KO
 ko-KR:
   <<: *DEFAULT_KO
 
-ua: & DEFAULT_UA
+ua: &DEFAULT_UA
   page: "Сторінка"
   pagination_previous: "Попередня"
   pagination_next: "Наступна"
@@ -574,7 +574,7 @@ ua: & DEFAULT_UA
   comment_error_msg: "На жаль, сталася помилка з відправкою коментаря. Будь ласка, переконайтеся, що всі обов'язкові поля заповнені і спробуйте знову."
   loading_label: "Відправлення ..."
 ukr-UA:
-  <<: * DEFAULT_UA
+  <<: *DEFAULT_UA
 
 
 # Russian / Русский
